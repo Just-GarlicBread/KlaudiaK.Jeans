@@ -365,9 +365,6 @@ footer a:hover { color: var(--white); text-decoration: underline; }
 .dark .btn:hover { background: var(--white); color: var(--ink); }
 .dark .link-arrow { color: #f2efe9; }
 
-/* langsamer Zoom auf großen Bildern (Ken-Burns-Effekt) */
-@keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08); } }
-.split-hero img, .film-wide > img { animation: kenburns 26s ease-in-out infinite alternate; }
 
 /* persönliche Einleitung */
 .intro { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(32px, 6vw, 90px); align-items: center; }
@@ -390,17 +387,17 @@ footer a:hover { color: var(--white); text-decoration: underline; }
 .dark .editorial .text p { color: #a9a398; }
 
 /* Filmstreifen mit Perforation */
-.filmstrip-wrap { background: #0b0b0b; padding: 34px 0; position: relative; }
+.filmstrip-wrap { background: #0b0b0b; padding: 37px 0 43px; position: relative; }
 .filmstrip-wrap::before, .filmstrip-wrap::after {
   content: ""; position: absolute; left: 0; right: 0; height: 12px;
   background: repeating-linear-gradient(90deg, transparent 0 12px, #3b3833 12px 26px);
 }
 .filmstrip-wrap::before { top: 10px; }
 .filmstrip-wrap::after { bottom: 10px; }
-.filmstrip { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 24px 4px; scrollbar-width: thin; }
+.filmstrip { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 24px 13px; scrollbar-width: thin; scrollbar-color: #5a564f transparent; }
 .filmstrip figure { flex: 0 0 clamp(220px, 24vw, 320px); scroll-snap-align: start; }
 .filmstrip img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
-.filmstrip figcaption { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: #a9a398; margin-top: 8px; }
+.filmstrip figcaption { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: #cfc9bf; margin-top: 10px; line-height: 1.4; }
 .filmstrip-head { padding: 0 24px 20px; max-width: var(--max); margin: 0 auto; color: #d9d4ca; }
 .filmstrip-head h2 { color: var(--white); margin-top: 8px; }
 
@@ -426,9 +423,6 @@ footer a:hover { color: var(--white); text-decoration: underline; }
   .mosaic { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; }
   .mosaic figure { grid-column: span 1 !important; grid-row: span 1 !important; }
   .mosaic .a, .mosaic .e { grid-column: span 2 !important; grid-row: span 2 !important; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .split-hero img, .film-wide > img { animation: none; }
 }
 
 /* Feinschliff Kino-Look */
