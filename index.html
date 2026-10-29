@@ -9,104 +9,218 @@
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Patua+One&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&amp;family=IBM+Plex+Mono:wght@400&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="topbar">
-  <div class="wrap">
-    <span>Mo – Fr <strong>10 – 18 Uhr</strong> · Sa <strong>10 – 16 Uhr</strong><span class="hide-s"> · Wandsbeker Allee 68</span></span>
-    <span><a href="tel:+494068915830">Tel. 040 – 68 91 58 30</a></span>
-  </div>
-</div>
+<p class="announce">Das ganze Jahr: Einzelstücke zum halben Preis – nur im Laden</p>
 
 <header>
   <nav class="wrap nav" aria-label="Hauptnavigation">
-    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="95" height="52"></a>
-    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <ul id="menu">
       <li><a href="index.html" aria-current="page">Startseite</a></li>
       <li><a href="wir-lieben-jeans.html">Wir lieben Jeans</a></li>
       <li><a href="beratung.html">Beratung</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
-    <a href="beratung.html#termin" class="btn btn-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Beratungstermin</a>
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="88" height="48"></a>
+    <div class="nav-right">
+      <p class="status"><i></i><span>Öffnungszeiten</span></p>
+      <a href="beratung.html#termin" class="btn btn-dark btn-pill">Termin</a>
+    </div>
   </nav>
 </header>
 
 <main>
-  <section class="hero">
-    <img src="img/frau-jeans.jpg" alt="Frau in Bluejeans und weißen Sneakern lehnt an einer Betonwand">
-    <div class="wrap">
-      <div class="hero-card">
-        <p class="eyebrow">Jeans House · Hamburg-Wandsbek</p>
-        <h1>Kulthosen für jeden Geschmack – auf 260 m² Ladenfläche.</h1>
-        <p>Komm vorbei, probier in Ruhe an und lass dich persönlich beraten. Wir finden die Jeans, die wirklich passt – auch in Überlänge.</p>
-        <div class="actions"><a href="beratung.html#termin" class="btn btn-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Beratungstermin vereinbaren</a><a href="kontakt.html" class="btn btn-outline">So findest du uns</a></div>
-      </div>
+  <section class="split-hero" aria-labelledby="hero-titel">
+    <figure><img src="img/hero-frau.jpg" alt="Frau in Jeansjacke und heller Jeans sitzt auf einer Treppe"><figcaption class="label">Damen</figcaption></figure>
+    <figure><img src="img/hero-mann.jpg" alt="Mann in heller Jeansjacke"><figcaption class="label">Herren</figcaption></figure>
+    <div class="hero-text">
+      <p class="label">Jeans House · Hamburg-Wandsbek · seit über 30 Jahren</p>
+      <h1 id="hero-titel">Kulthosen für jeden Geschmack</h1>
+      <p>Markenjeans auf 260 m² – mit persönlicher Beratung, bis die Passform stimmt.</p>
+      <div class="actions"><a href="beratung.html#termin" class="btn btn-light btn-pill">Beratung buchen</a><a href="kontakt.html" class="btn btn-light btn-pill" style="background:none;color:#fff">Store finden</a></div>
     </div>
   </section>
-
-  <div class="logo-strip" aria-hidden="true"><div class="logo-track"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"></div></div>
 
   <section>
-    <div class="wrap two-col">
+    <div class="wrap intro">
+      <img src="img/stapel-etiketten.jpg" alt="Stapel gefalteter Jeans mit Etiketten auf einem Tisch" loading="lazy">
       <div>
-        <p class="eyebrow">Willkommen bei Jeans House</p>
+        <p class="label">Moin aus Wandsbek</p>
         <h2>Jeans ist nicht gleich Jeans.</h2>
-        <p>Und es ist nicht Jacke wie Hose, nach welchem Modell du greifst. Wir bieten dir eine riesige Auswahl – auch <strong>Überlängen bis 38 Inch Länge und 48 Inch Weite</strong> halten wir für dich bereit.</p>
-        <p>Auf einen Blick erkennen wir, welche Hose wie angegossen passt, und begleiten dich auf dem Weg zu deiner neuen Lieblingsjeans. Vertrau auf unsere <strong>über 30-jährige Erfahrung</strong>.</p>
-        <div class="actions"><a href="wir-lieben-jeans.html" class="btn btn-outline">Mehr über uns</a></div>
-      </div>
-      <div class="facts">
-        <div class="fact"><strong>260 m²</strong><span>Ladenfläche</span></div>
-        <div class="fact"><strong>W48 · L38</strong><span>Weiten &amp; Längen</span></div>
-        <div class="fact"><strong>30+</strong><span>Jahre Erfahrung</span></div>
+        <p>Seit über 30 Jahren stehen wir an der Wandsbeker Allee zwischen Regalen voller Denim. Und jeden Tag sehen wir dasselbe: Menschen, die mit drei Jeans in die Kabine gehen – und mit einem Lächeln wieder herauskommen.</p>
+        <p>Genau darum geht es uns. Nicht um den schnellen Trend, sondern um die eine Hose, die wie angegossen sitzt. Auch in Überlänge bis 38 Inch und Weite bis 48 Inch.</p>
+        <p class="sign">— Dein Team von Jeans House</p>
+        <ul class="facts" style="justify-content:flex-start">
+          <li><strong>260 m²</strong>Ladenfläche</li>
+          <li><strong>15</strong>Marken</li>
+          <li><strong>30+</strong>Jahre</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="bg-grey" id="schnitte">
+  <section class="film-wide">
+    <img src="img/hh-blick-wasserschloss.jpg" alt="Person blickt durch eine Brücke auf das Wasserschloss in der Speicherstadt" loading="lazy">
+    <p class="timecode" aria-hidden="true">HAMBURG · 53.5° N</p>
     <div class="wrap">
-      <div class="section-head center">
-        <p class="eyebrow">Passform</p>
-        <h2>Welcher Schnitt passt zu dir?</h2>
-        <p>Eng, gerade oder locker – für jeden Typ hängt die passende Jeans im Regal. Und wenn du unsicher bist, finden wir es in der Beratung gemeinsam heraus.</p>
+      <p class="label" style="color:#e7e3dc">Unsere Stadt</p>
+      <h2>Ein Laden aus Hamburg, für Hamburg.</h2>
+      <p>Wir sind kein Online-Shop, sondern ein Ort mitten in Wandsbek, an dem man vorbeikommt, anprobiert und ins Gespräch kommt.</p>
+    </div>
+  </section>
+
+  <div class="dark">
+    <section class="tight" style="padding-bottom:0">
+      <div class="wrap">
+        <div class="section-head">
+        <div>
+          <p class="label">Ein Besuch bei uns</p>
+          <h2>In vier Szenen zur Lieblingsjeans.</h2>
+          <p>So fühlt sich ein Einkauf bei uns an – ganz ohne Warenkorb.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  <section class="editorial" style="padding:0">
+    <img src="img/schaufenster.jpg" alt="Schaufenster mit Jeansjacke und Latzhose" loading="lazy">
+    <div class="text">
+      <p class="label"><span class="scene-no">Szene 01</span></p>
+      <h2>Ankommen.</h2>
+        <p>Die Tür geht auf, es riecht nach frischem Denim. Kein Gedränge, kein Kaufdruck. Du erzählst uns, was du suchst – oder einfach, was bisher nie gepasst hat.</p>
+    </div>
+  </section>
+
+  <section class="editorial flip" style="padding:0">
+    <img src="img/massband-licht.jpg" alt="Hand hält ein Maßband im warmen Licht" loading="lazy">
+    <div class="text">
+      <p class="label"><span class="scene-no">Szene 02</span></p>
+      <h2>Hinschauen.</h2>
+        <p>Wir schauen genau hin: Wie trägst du deine Jeans? Wo zwickt es, wo ist sie zu lang? Mit über 30 Jahren Erfahrung sehen wir oft auf einen Blick, welcher Schnitt passt.</p>
+    </div>
+  </section>
+
+  <section class="editorial" style="padding:0">
+    <img src="img/kabine.jpg" alt="Umkleidekabine mit Vorhang im warmen Licht" loading="lazy">
+    <div class="text">
+      <p class="label"><span class="scene-no">Szene 03</span></p>
+      <h2>Anprobieren.</h2>
+        <p>Du probierst in Ruhe an. Die nächste Größe? Bringen wir dir direkt in die Kabine – ganz ohne Paket und Retoure.</p>
+    </div>
+  </section>
+
+  <section class="editorial flip" style="padding:0">
+    <img src="img/freundinnen.jpg" alt="Zwei Freundinnen in Jeans gehen nebeneinander" loading="lazy">
+    <div class="text">
+      <p class="label"><span class="scene-no">Szene 04</span></p>
+      <h2>Passt.</h2>
+        <p>Und dann ist da dieser Moment, in dem die Jeans einfach sitzt. Du gehst nach Hause – mit einer Hose, die bleibt.</p>
+      <div class="actions"><a href="beratung.html#termin" class="btn btn-light">Beratung buchen</a><a href="kontakt.html" class="btn">Store finden</a></div>
+    </div>
+  </section>
+  </div>
+
+  <section class="filmstrip-wrap" style="padding-left:0;padding-right:0">
+    <div class="filmstrip-head">
+      <p class="label" style="color:#a9a398">Details</p>
+      <h2>Was man nur im Laden spürt.</h2>
+    </div>
+    <div class="filmstrip">
+      <figure><img src="img/knopf.jpg" alt="Nahaufnahme eines Jeansknopfs" loading="lazy"><figcaption>01 — Der Knopf</figcaption></figure>
+      <figure><img src="img/naht.jpg" alt="Doppelte Naht auf Denim" loading="lazy"><figcaption>02 — Die Naht</figcaption></figure>
+      <figure><img src="img/tasche-leder.jpg" alt="Gesäßtasche mit Lederpatch" loading="lazy"><figcaption>03 — Das Patch</figcaption></figure>
+      <figure><img src="img/haende-stoff.jpg" alt="Hände halten ein Stück Jeansstoff" loading="lazy"><figcaption>04 — Der Stoff</figcaption></figure>
+      <figure><img src="img/stapel-tisch.jpg" alt="Gestapelte Jeans auf einem Tisch" loading="lazy"><figcaption>05 — Der Stapel</figcaption></figure>
+      <figure><img src="img/haende-etikett.jpg" alt="Hände halten eine Jeans mit Etikett" loading="lazy"><figcaption>06 — Das Etikett</figcaption></figure>
+      <figure><img src="img/stange-warm.jpg" alt="Jeans auf Bügeln im warmen Licht" loading="lazy"><figcaption>07 — Die Stange</figcaption></figure>
+      <figure><img src="img/jeans-dunkel.jpg" alt="Dunkle Jeans hängen nebeneinander" loading="lazy"><figcaption>08 — Rinse Wash</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="label">Schnitte</p>
+          <h2>Welcher Typ bist du?</h2>
+          <p>Eng, gerade oder locker – für jeden Typ hängt die passende Jeans im Regal.</p>
+        </div>
+        <a class="link-arrow" href="beratung.html#groessen">Größen verstehen →</a>
       </div>
       <div class="cuts">
-        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg0" x1="0" x2="1"><stop offset="0" stop-color="#3d5f97"/><stop offset="1" stop-color="#1d3461"/></linearGradient></defs><polygon points="20,18 25,112 26,200 38,200 41,112 50,80 50,80 59,112 62,200 74,200 75,112 80,18" fill="url(#dg0)" stroke-linejoin="round"/><rect x="19" y="8" width="62" height="11" rx="2" fill="#1d3461"/><circle cx="50" cy="13.5" r="2.4" fill="#d9933f"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#d9933f" stroke-width="1.4" stroke-dasharray="3 2"/></svg><h3>Skinny</h3><p>eng von oben bis unten</p></a>
-        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg1" x1="0" x2="1"><stop offset="0" stop-color="#3d5f97"/><stop offset="1" stop-color="#1d3461"/></linearGradient></defs><polygon points="20,18 23,112 23.5,200 40.5,200 43,112 50,80 50,80 57,112 59.5,200 76.5,200 77,112 80,18" fill="url(#dg1)" stroke-linejoin="round"/><rect x="19" y="8" width="62" height="11" rx="2" fill="#1d3461"/><circle cx="50" cy="13.5" r="2.4" fill="#d9933f"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#d9933f" stroke-width="1.4" stroke-dasharray="3 2"/></svg><h3>Slim</h3><p>schmal, aber bequem</p></a>
-        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg2" x1="0" x2="1"><stop offset="0" stop-color="#3d5f97"/><stop offset="1" stop-color="#1d3461"/></linearGradient></defs><polygon points="20,18 21,112 20,200 44,200 45,112 50,80 50,80 55,112 56,200 80,200 79,112 80,18" fill="url(#dg2)" stroke-linejoin="round"/><rect x="19" y="8" width="62" height="11" rx="2" fill="#1d3461"/><circle cx="50" cy="13.5" r="2.4" fill="#d9933f"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#d9933f" stroke-width="1.4" stroke-dasharray="3 2"/></svg><h3>Straight</h3><p>gerade und zeitlos</p></a>
-        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg3" x1="0" x2="1"><stop offset="0" stop-color="#3d5f97"/><stop offset="1" stop-color="#1d3461"/></linearGradient></defs><polygon points="20,18 22.5,112 16.5,200 47.5,200 43.5,112 50,80 50,80 56.5,112 52.5,200 83.5,200 77.5,112 80,18" fill="url(#dg3)" stroke-linejoin="round"/><rect x="19" y="8" width="62" height="11" rx="2" fill="#1d3461"/><circle cx="50" cy="13.5" r="2.4" fill="#d9933f"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#d9933f" stroke-width="1.4" stroke-dasharray="3 2"/></svg><h3>Bootcut</h3><p>unten leicht ausgestellt</p></a>
-        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg4" x1="0" x2="1"><stop offset="0" stop-color="#3d5f97"/><stop offset="1" stop-color="#1d3461"/></linearGradient></defs><polygon points="20,18 18,112 18,200 46,200 48,112 50,80 50,80 52,112 54,200 82,200 82,112 80,18" fill="url(#dg4)" stroke-linejoin="round"/><rect x="19" y="8" width="62" height="11" rx="2" fill="#1d3461"/><circle cx="50" cy="13.5" r="2.4" fill="#d9933f"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#d9933f" stroke-width="1.4" stroke-dasharray="3 2"/></svg><h3>Relaxed</h3><p>locker &amp; lässig</p></a>
+        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg0" x1="0" x2="1"><stop offset="0" stop-color="#40608f"/><stop offset="1" stop-color="#1c2b45"/></linearGradient></defs><polygon points="20,18 25,112 26,200 38,200 41,112 50,80 50,80 59,112 62,200 74,200 75,112 80,18" fill="url(#dg0)"/><rect x="19" y="8" width="62" height="11" fill="#1c2b45"/><circle cx="50" cy="13.5" r="2.4" fill="#c8a265"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#c8a265" stroke-width="1.2" stroke-dasharray="3 2"/></svg><h3>Skinny</h3><p>eng von oben bis unten</p></a>
+        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg1" x1="0" x2="1"><stop offset="0" stop-color="#40608f"/><stop offset="1" stop-color="#1c2b45"/></linearGradient></defs><polygon points="20,18 23,112 23.5,200 40.5,200 43,112 50,80 50,80 57,112 59.5,200 76.5,200 77,112 80,18" fill="url(#dg1)"/><rect x="19" y="8" width="62" height="11" fill="#1c2b45"/><circle cx="50" cy="13.5" r="2.4" fill="#c8a265"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#c8a265" stroke-width="1.2" stroke-dasharray="3 2"/></svg><h3>Slim</h3><p>schmal, aber bequem</p></a>
+        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg2" x1="0" x2="1"><stop offset="0" stop-color="#40608f"/><stop offset="1" stop-color="#1c2b45"/></linearGradient></defs><polygon points="20,18 21,112 20,200 44,200 45,112 50,80 50,80 55,112 56,200 80,200 79,112 80,18" fill="url(#dg2)"/><rect x="19" y="8" width="62" height="11" fill="#1c2b45"/><circle cx="50" cy="13.5" r="2.4" fill="#c8a265"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#c8a265" stroke-width="1.2" stroke-dasharray="3 2"/></svg><h3>Straight</h3><p>gerade und zeitlos</p></a>
+        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg3" x1="0" x2="1"><stop offset="0" stop-color="#40608f"/><stop offset="1" stop-color="#1c2b45"/></linearGradient></defs><polygon points="20,18 22.5,112 16.5,200 47.5,200 43.5,112 50,80 50,80 56.5,112 52.5,200 83.5,200 77.5,112 80,18" fill="url(#dg3)"/><rect x="19" y="8" width="62" height="11" fill="#1c2b45"/><circle cx="50" cy="13.5" r="2.4" fill="#c8a265"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#c8a265" stroke-width="1.2" stroke-dasharray="3 2"/></svg><h3>Bootcut</h3><p>unten leicht ausgestellt</p></a>
+        <a class="cut" href="beratung.html"><svg viewBox="0 0 100 210" aria-hidden="true"><defs><linearGradient id="dg4" x1="0" x2="1"><stop offset="0" stop-color="#40608f"/><stop offset="1" stop-color="#1c2b45"/></linearGradient></defs><polygon points="20,18 18,112 18,200 46,200 48,112 50,80 50,80 52,112 54,200 82,200 82,112 80,18" fill="url(#dg4)"/><rect x="19" y="8" width="62" height="11" fill="#1c2b45"/><circle cx="50" cy="13.5" r="2.4" fill="#c8a265"/><path d="M50 20v40M26 28q9 10 16 0M74 28q-9 10-16 0" fill="none" stroke="#c8a265" stroke-width="1.2" stroke-dasharray="3 2"/></svg><h3>Relaxed</h3><p>locker &amp; lässig</p></a>
       </div>
     </div>
   </section>
 
-  <section id="laden">
+  <section>
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Unser Laden</p>
-        <h2>Ein Blick in den Store.</h2>
-        <p>Regal an Regal Markenjeans, sortiert nach Hersteller, Schnitt und Größe – und mittendrin ein Team, das sich auskennt.</p>
+        <div>
+          <p class="label">Jeans für alle</p>
+          <h2>Für jeden Tag. Für jeden Typ.</h2>
+          <p>Jeans tragen sich durch alle Kulturen und bedeuten Freiheit – auch beim Styling.</p>
+        </div>
       </div>
-      <div class="gallery">
-        <figure class="wide"><img src="img/laden-verkauf.jpg" alt="Verkaufsfläche mit Jeans und Oberteilen" loading="lazy"><figcaption>Die Verkaufsfläche</figcaption></figure>
-        <figure><img src="img/regale.jpg" alt="Regale voller gefalteter Jeans" loading="lazy"><figcaption>Jeans bis unter die Decke</figcaption></figure>
-        <figure><img src="img/laden-innen.jpg" alt="Beratungstisch im Laden" loading="lazy"><figcaption>Hier wird beraten</figcaption></figure>
-        <figure><img src="img/schild.jpg" alt="Jeans House Schild mit Luftballons" loading="lazy"></figure>
-        <figure><img src="img/etikett.jpg" alt="Jeans House Etikett auf Denim" loading="lazy"></figure>
+      <div class="mosaic">
+      <figure class="a"><img src="img/paar-jacken.jpg" alt="Paar in Jeansjacken in der Stadt" loading="lazy"></figure>
+      <figure class="b"><img src="img/zwei-blumen.jpg" alt="Zwei Menschen in Jeans halten Blumen" loading="lazy"></figure>
+      <figure class="c"><img src="img/frau-muetze.jpg" alt="Frau in Jeansjacke mit Mütze" loading="lazy"></figure>
+      <figure class="d"><img src="img/fuesse.jpg" alt="Füße von mehreren Menschen in Jeans" loading="lazy"></figure>
+      <figure class="d"><img src="img/hand-jeans.jpg" alt="Hand auf dem Knie in Jeans" loading="lazy"></figure>
+      <figure class="e"><img src="img/drei-feld.jpg" alt="Drei Freunde in Jeans auf einem Feld" loading="lazy"></figure>
+      <figure class="f"><img src="img/frau-fluss.jpg" alt="Frau in Jacke am Flussufer" loading="lazy"></figure>
+    </div>
+    </div>
+  </section>
+
+  <section class="full-bleed" style="padding:0">
+    <img src="img/stapel-regal.jpg" alt="Gestapelte Jeans in einem Regal" loading="lazy">
+    <div class="wrap">
+      <p class="label">Stationär statt Warenkorb</p>
+      <h2>Anprobieren schlägt Zurückschicken.</h2>
+      <p>Bei uns findest du Hosenklassiker der großen Jeans-Hersteller aus aller Welt – sortiert, gefaltet und bereit zum Anprobieren.</p>
+      <div class="actions"><a href="kontakt.html" class="btn btn-light">Zum Store</a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="label">Unser Laden</p>
+          <h2>So sieht's bei uns aus.</h2>
+          <p>Echte Fotos aus unserem Store an der Wandsbeker Allee.</p>
+        </div>
+        <a class="link-arrow" href="kontakt.html">Anfahrt &amp; Öffnungszeiten →</a>
+      </div>
+      <div class="store-photos">
+        <figure><img src="img/laden-verkauf.jpg" alt="Verkaufsfläche mit Jeans und Oberteilen" loading="lazy"><figcaption class="label muted">Die Verkaufsfläche</figcaption></figure>
+        <figure><img src="img/regale.jpg" alt="Regale voller gefalteter Jeans" loading="lazy"><figcaption class="label muted">Jeans bis unter die Decke</figcaption></figure>
+        <figure><img src="img/laden-innen.jpg" alt="Beratungstisch im Laden" loading="lazy"><figcaption class="label muted">Hier wird beraten</figcaption></figure>
+        <figure><img src="img/ladenfront.jpg" alt="Ladenfront von Jeans House an der Wandsbeker Allee 68" loading="lazy"><figcaption class="label muted">Wandsbeker Allee 68</figcaption></figure>
       </div>
     </div>
   </section>
 
-  <section class="bg-grey" id="marken">
+  <div class="logo-strip" aria-hidden="true"><div class="logo-track"><img src="img/marken/levis.png" alt="" height="30"><img src="img/marken/wrangler.png" alt="" height="30"><img src="img/marken/lee.png" alt="" height="30"><img src="img/marken/mac.png" alt="" height="30"><img src="img/marken/pioneer.png" alt="" height="30"><img src="img/marken/paddocks.png" alt="" height="30"><img src="img/marken/cross.png" alt="" height="30"><img src="img/marken/blue-monkey.png" alt="" height="30"><img src="img/marken/his.png" alt="" height="30"><img src="img/marken/co.png" alt="" height="30"><img src="img/marken/viazoni.png" alt="" height="30"><img src="img/marken/dockers.png" alt="" height="30"><img src="img/marken/heimatliebe.png" alt="" height="30"><img src="img/marken/naketano.png" alt="" height="30"><img src="img/marken/vittozzi.png" alt="" height="30"><img src="img/marken/levis.png" alt="" height="30"><img src="img/marken/wrangler.png" alt="" height="30"><img src="img/marken/lee.png" alt="" height="30"><img src="img/marken/mac.png" alt="" height="30"><img src="img/marken/pioneer.png" alt="" height="30"><img src="img/marken/paddocks.png" alt="" height="30"><img src="img/marken/cross.png" alt="" height="30"><img src="img/marken/blue-monkey.png" alt="" height="30"><img src="img/marken/his.png" alt="" height="30"><img src="img/marken/co.png" alt="" height="30"><img src="img/marken/viazoni.png" alt="" height="30"><img src="img/marken/dockers.png" alt="" height="30"><img src="img/marken/heimatliebe.png" alt="" height="30"><img src="img/marken/naketano.png" alt="" height="30"><img src="img/marken/vittozzi.png" alt="" height="30"></div></div>
+
+  <section class="bg-white" id="marken">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Unsere Marken</p>
-        <h2>Hosenklassiker der großen Jeans-Hersteller aus aller Welt.</h2>
-        <p>Eine Auswahl unserer Marken und Modelle – im Laden findest du noch viel mehr.</p>
+        <div>
+          <p class="label">Unsere Marken</p>
+          <h2>Hosenklassiker aus aller Welt.</h2>
+          <p>Eine Auswahl unserer Marken und Modelle – im Laden findest du noch viel mehr.</p>
+        </div>
       </div>
       <div class="brand-filter" role="group" aria-label="Nach Kategorie filtern">
         <input class="filter-radio" type="radio" name="kategorie" id="f-all" checked><label class="chip" for="f-all">Alle</label>
@@ -116,77 +230,77 @@
         <input class="filter-radio" type="radio" name="kategorie" id="f-acc"><label class="chip" for="f-acc">Accessoires</label>
         <div class="brands">
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/levis.png" alt="Logo Levi&#x27;s" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/levis.png" alt="Logo Levi&#x27;s" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Levi&#x27;s <small>– der Klassiker</small></h3>
             <ul class="models"><li>501</li><li>502</li><li>511</li><li>527</li><li>710</li><li>711</li><li>712</li><li>714</li><li>715</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/wrangler.png" alt="Logo Wrangler" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/wrangler.png" alt="Logo Wrangler" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Wrangler</h3>
             <ul class="models"><li>Greensboro</li><li>Arizona</li><li>Texas</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/lee.png" alt="Logo Lee" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/lee.png" alt="Logo Lee" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Lee</h3>
             <ul class="models"><li>Daren</li><li>Ranger</li><li>Scarlett</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img dim" src="img/marken/mac.png" alt="Logo Mac" height="40" loading="lazy">
+            <img class="logo-img dim" src="img/marken/mac.png" alt="Logo Mac" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Mac</h3>
             <ul class="models"><li>Carrie Pipe</li><li>Dream</li><li>Dream Skinny</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/pioneer.png" alt="Logo Pioneer" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/pioneer.png" alt="Logo Pioneer" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Pioneer</h3>
             <ul class="models"><li>Rando</li><li>Sally</li><li>Betty</li><li>Kate</li><li>Katy</li><li>Karen</li><li>Storm</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/paddocks.png" alt="Logo Paddocks" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/paddocks.png" alt="Logo Paddocks" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Paddocks</h3>
             <ul class="models"><li>Ranger</li><li>Carter</li><li>Jason</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/cross.png" alt="Logo Cross" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/cross.png" alt="Logo Cross" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Cross</h3>
             <ul class="models"><li>Antonio</li><li>Laura</li><li>Alan</li><li>Anja</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/blue-monkey.png" alt="Logo blue monkey" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/blue-monkey.png" alt="Logo blue monkey" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>blue monkey</h3>
             <ul class="models"><li>Gordan</li><li>Laura</li><li>Lena</li><li>Freddy</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/his.png" alt="Logo His" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/his.png" alt="Logo His" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>His</h3>
             <ul class="models"><li>Marylin</li><li>Lorraine</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/co.png" alt="Logo Co" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/co.png" alt="Logo Co" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Co</h3>
             <ul class="models"><li>Sophia</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-jeans">
-            <img class="logo-img" src="img/marken/viazoni.png" alt="Logo Viazoni" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/viazoni.png" alt="Logo Viazoni" height="36" loading="lazy">
             <h3><span class="t">Jeans</span>Viazoni</h3>
             <ul class="models"><li>Hugo</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-chinos">
-            <img class="logo-img" src="img/marken/dockers.png" alt="Logo Dockers" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/dockers.png" alt="Logo Dockers" height="36" loading="lazy">
             <h3><span class="t">Chinos</span>Dockers</h3>
             <ul class="models"><li>Chinos</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-tops">
-            <img class="logo-img" src="img/marken/heimatliebe.png" alt="Logo Heimatliebe" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/heimatliebe.png" alt="Logo Heimatliebe" height="36" loading="lazy">
             <h3><span class="t">Oberteile</span>Heimatliebe</h3>
             <ul class="models"><li>Damen-Oberteile</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-tops">
-            <img class="logo-img" src="img/marken/naketano.png" alt="Logo Naketano" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/naketano.png" alt="Logo Naketano" height="36" loading="lazy">
             <h3><span class="t">Oberteile</span>Naketano</h3>
             <ul class="models"><li>Oberteile</li><li>u. v. m.</li></ul>
           </article>
           <article class="brand t-acc">
-            <img class="logo-img" src="img/marken/vittozzi.png" alt="Logo Vittozzi" height="40" loading="lazy">
+            <img class="logo-img" src="img/marken/vittozzi.png" alt="Logo Vittozzi" height="36" loading="lazy">
             <h3><span class="t">Accessoires</span>Vittozzi</h3>
             <ul class="models"><li>Ledergürtel</li><li>u. v. m.</li></ul>
           </article>
@@ -195,50 +309,62 @@
     </div>
   </section>
 
-  <section class="band">
-    <img src="img/jeans-stapel.jpg" alt="" loading="lazy">
+  <section class="editorial flip" style="padding:0">
+    <img src="img/frau-stadt.jpg" alt="Frau in Jeansjacke in einer Stadtstraße" loading="lazy">
+    <div class="text">
+      <p class="label">Wir lieben Jeans</p>
+      <h2>Nur eine Hose? Von wegen!</h2>
+        <p>Vom relaxten Boyfriend-Stil über Jeans mit hohem Bund bis zur knöchellangen Girlfriend-Hose – für jeden Anlass der passende Look.</p>
+        <p>Das Beste: Das ganze Jahr über gibt es bei uns Einzelstücke zum halben Preis.</p>
+      <div class="actions"><a href="wir-lieben-jeans.html" class="btn btn-dark">Mehr über uns</a></div>
+    </div>
+  </section>
+
+  <section>
     <div class="wrap">
-      <div class="section-head center">
-        <p class="eyebrow">Warum Jeans House?</p>
-        <h2>Deine Vorteile</h2>
+      <div class="section-head">
+        <div>
+          <p class="label">Warum Jeans House?</p>
+          <h2>Deine Vorteile.</h2>
+        </div>
       </div>
       <div class="perks">
-        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>Freundliche &amp; kompetente Beratung</h3><p>Wir nehmen uns Zeit, hören zu und sagen ehrlich, was dir steht – ganz ohne Kaufdruck.</p></article>
-        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div><h3>Mehr als 30 Jahre Erfahrung</h3><p>Seit über drei Jahrzehnten dreht sich bei uns alles um Jeans. Wir kennen jeden Schnitt.</p></article>
-        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h3>Große Auswahl verschiedener Labels</h3><p>15 Marken, viele Modelle und Waschungen – auch in Überlänge und großen Weiten.</p></article>
+        <article class="perk"><p class="label">01</p><h3>Freundlich &amp; kompetent</h3><p>Wir nehmen uns Zeit, hören zu und sagen ehrlich, was dir steht – ganz ohne Kaufdruck.</p></article>
+        <article class="perk"><p class="label">02</p><h3>Über 30 Jahre Erfahrung</h3><p>Seit über drei Jahrzehnten dreht sich bei uns alles um Jeans. Wir kennen jeden Schnitt.</p></article>
+        <article class="perk"><p class="label">03</p><h3>Große Auswahl</h3><p>15 Marken, viele Modelle und Waschungen – auch in Überlänge und großen Weiten.</p></article>
       </div>
     </div>
   </section>
 
-  <section class="bg-grey" id="besuch">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Besuch uns</p>
-        <h2>Komm vorbei – wir freuen uns auf dich.</h2>
-        <p>Mitten in Wandsbek, direkt an der Wandsbeker Allee. Du kannst einfach reinkommen – oder dir mit einem Termin extra Zeit für die Beratung sichern.</p>
-      </div>
-      <div class="visit-grid">
-        <section class="card">
-          <h3>Unsere Öffnungszeiten</h3>
-          <p class="status"><i></i><span>Öffnungszeiten</span></p>
-          <table class="hours">
-            <tr data-d="1"><td>Montag</td><td>10:00 – 18:00 Uhr</td></tr>
-            <tr data-d="2"><td>Dienstag</td><td>10:00 – 18:00 Uhr</td></tr>
-            <tr data-d="3"><td>Mittwoch</td><td>10:00 – 18:00 Uhr</td></tr>
-            <tr data-d="4"><td>Donnerstag</td><td>10:00 – 18:00 Uhr</td></tr>
-            <tr data-d="5"><td>Freitag</td><td>10:00 – 18:00 Uhr</td></tr>
-            <tr data-d="6"><td>Samstag</td><td>10:00 – 16:00 Uhr</td></tr>
+  <section style="padding:0">
+    <h2 class="sr-only">Mehr entdecken</h2>
+    <div class="tiles">
+    <a class="tile" href="beratung.html#ablauf"><img src="img/buegel.jpg" alt="Jeans auf einem Holzbügel" loading="lazy"><div><h3>Beratung</h3><span class="label">Ablauf →</span></div></a>
+    <a class="tile" href="beratung.html#groessen"><img src="img/stapel-weiss.jpg" alt="Stapel gefalteter Jeans" loading="lazy"><div><h3>Größen</h3><span class="label">W &amp; L erklärt →</span></div></a>
+    <a class="tile" href="beratung.html#nachhaltigkeit"><img src="img/rollen.jpg" alt="Gerollte Jeans dicht nebeneinander" loading="lazy"><div><h3>Pflege</h3><span class="label">Länger Freude →</span></div></a>
+    <a class="tile" href="kontakt.html#anfahrt"><img src="img/hh-strasse-schatten.jpg" alt="Person auf einer Hamburger Straße im Gegenlicht" loading="lazy"><div><h3>Store</h3><span class="label">Anfahrt →</span></div></a>
+    </div>
+  </section>
+
+  <section class="visit" style="padding:0" id="besuch">
+    <img src="img/hh-speicherstadt-abend.jpg" alt="Hamburger Speicherstadt am Abend" loading="lazy">
+    <div class="text">
+      <p class="label">Besuch uns im Store</p>
+      <h2>Wandsbeker Allee 68</h2>
+      <p class="status"><i></i><span>Öffnungszeiten</span></p>
+      <table class="hours">
+            <tr data-d="1"><td>Montag</td><td>10:00 – 18:00</td></tr>
+            <tr data-d="2"><td>Dienstag</td><td>10:00 – 18:00</td></tr>
+            <tr data-d="3"><td>Mittwoch</td><td>10:00 – 18:00</td></tr>
+            <tr data-d="4"><td>Donnerstag</td><td>10:00 – 18:00</td></tr>
+            <tr data-d="5"><td>Freitag</td><td>10:00 – 18:00</td></tr>
+            <tr data-d="6"><td>Samstag</td><td>10:00 – 16:00</td></tr>
             <tr data-d="0"><td>Sonntag</td><td>geschlossen</td></tr>
           </table>
-        </section>
-        <section class="card">
-          <h3>Hier findest du uns</h3>
-          <address class="address"><strong>Jeans House Ohlrogge GmbH &amp; Co. KG</strong><br>Wandsbeker Allee 68<br>22041 Hamburg<br>Telefon: <a href="tel:+494068915830">040 – 68 91 58 30</a></address>
-          <div class="actions">
-            <a class="btn btn-red" href="beratung.html#termin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Termin vereinbaren</a>
-            <a class="btn btn-outline" href="kontakt.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Anfahrt &amp; Karte</a>
-          </div>
-        </section>
+      <address class="address">Jeans House Ohlrogge GmbH &amp; Co. KG<br>Wandsbeker Allee 68, 22041 Hamburg<br><a href="tel:+494068915830">040 – 68 91 58 30</a></address>
+      <div class="actions">
+        <a class="btn btn-dark" href="beratung.html#termin">Beratung buchen</a>
+        <a class="btn" href="kontakt.html#anfahrt">Anfahrt</a>
       </div>
     </div>
   </section>
@@ -248,31 +374,32 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <img src="img/logo.png" alt="Jeans House" width="88" height="48">
-        <p>Markenjeans auf 260 m² in Hamburg-Wandsbek.<br>Persönliche Beratung seit über 30 Jahren.</p>
+        <a href="index.html" class="foot-logo"><img src="img/logo.png" alt="Jeans House" width="73" height="40"></a>
+        <p>Markenjeans auf 260 m² in Hamburg-Wandsbek. Persönliche Beratung seit über 30 Jahren.</p>
       </div>
       <section>
-        <h2 class="foot-h">Unsere Öffnungszeiten</h2>
-        <p>Mo – Fr: 10:00 – 18:00 Uhr<br>Sa: 10:00 – 16:00 Uhr<br>So: geschlossen</p>
+        <h2 class="foot-h">ÖFFNUNGSZEITEN</h2>
+        <p>Mo – Fr 10 – 18 Uhr<br>Sa 10 – 16 Uhr<br>So geschlossen</p>
       </section>
       <section>
-        <h2 class="foot-h">Hier findest du uns</h2>
-        <address>
-          <ul>
-            <li>Jeans House Ohlrogge GmbH &amp; Co. KG</li>
-            <li>Wandsbeker Allee 68, 22041 Hamburg</li>
-            <li><a href="tel:+494068915830">040 – 68 91 58 30</a></li>
-            <li><a href="mailto:jeanshouse.hamb@t-online.de">jeanshouse.hamb@t-online.de</a></li>
-            <li><a href="https://www.facebook.com/hamburgjeans/" target="_blank" rel="noopener">Facebook</a></li>
-          </ul>
-        </address>
+        <h2 class="foot-h">STORE</h2>
+        <address>Jeans House Ohlrogge GmbH &amp; Co. KG<br>Wandsbeker Allee 68<br>22041 Hamburg</address>
+      </section>
+      <section>
+        <h2 class="foot-h">KONTAKT</h2>
+        <ul>
+          <li><a href="tel:+494068915830">040 – 68 91 58 30</a></li>
+          <li><a href="mailto:jeanshouse.hamb@t-online.de">E-Mail schreiben</a></li>
+          <li><a href="https://www.facebook.com/hamburgjeans/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="beratung.html#termin">Beratungstermin</a></li>
+        </ul>
       </section>
     </div>
     <div class="foot-bottom">
       <span>© Jeans House Ohlrogge GmbH &amp; Co. KG</span>
       <nav aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="https://www.hamburg-jeans.de/" target="_blank" rel="noopener">Original-Website</a></nav>
     </div>
-    <p class="disclaimer">Schulprojekt: inoffizielles Redesign der Website hamburg-jeans.de zu Übungszwecken. Keine Verbindung zum Unternehmen. Fotos und Logos stammen von hamburg-jeans.de bzw. den jeweiligen Marken.</p>
+    <p class="disclaimer">Schulprojekt: inoffizielles Redesign der Website hamburg-jeans.de zu Übungszwecken. Keine Verbindung zum Unternehmen. Ladenfotos und Logos von hamburg-jeans.de bzw. den Marken, Stimmungsfotos von Unsplash (siehe Impressum).</p>
   </div>
 </footer>
 

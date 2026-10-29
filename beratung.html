@@ -9,70 +9,95 @@
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Patua+One&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&amp;family=IBM+Plex+Mono:wght@400&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="topbar">
-  <div class="wrap">
-    <span>Mo – Fr <strong>10 – 18 Uhr</strong> · Sa <strong>10 – 16 Uhr</strong><span class="hide-s"> · Wandsbeker Allee 68</span></span>
-    <span><a href="tel:+494068915830">Tel. 040 – 68 91 58 30</a></span>
-  </div>
-</div>
+<p class="announce">Das ganze Jahr: Einzelstücke zum halben Preis – nur im Laden</p>
 
 <header>
   <nav class="wrap nav" aria-label="Hauptnavigation">
-    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="95" height="52"></a>
-    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <ul id="menu">
       <li><a href="index.html">Startseite</a></li>
       <li><a href="wir-lieben-jeans.html">Wir lieben Jeans</a></li>
       <li><a href="beratung.html" aria-current="page">Beratung</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
-    <a href="beratung.html#termin" class="btn btn-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Beratungstermin</a>
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="88" height="48"></a>
+    <div class="nav-right">
+      <p class="status"><i></i><span>Öffnungszeiten</span></p>
+      <a href="beratung.html#termin" class="btn btn-dark btn-pill">Termin</a>
+    </div>
   </nav>
 </header>
 
 <main>
-  <section class="hero small">
-    <img src="img/jeans-stapel.jpg" alt="Stapel gefalteter Jeans">
-    <div class="wrap">
-      <div class="hero-card">
-        <p class="crumbs"><a href="index.html">Startseite</a> / Beratung</p>
-        <p class="eyebrow">Persönliche Passformberatung</p>
-        <h1>Die perfekte Jeans findest du nicht im Warenkorb.</h1>
-        <p>Sondern bei uns in der Umkleide. Wir schauen gemeinsam, welcher Schnitt zu dir passt – in Ruhe, ehrlich und kostenlos.</p>
-        <div class="actions"><a href="#termin" class="btn btn-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Termin anfragen</a><a href="#ablauf" class="btn btn-outline">So läuft es ab</a></div>
-      </div>
+  <section class="split-hero" aria-labelledby="hero-titel">
+    <figure><img src="img/massband-licht.jpg" alt="Hand hält ein Maßband im warmen Licht"><figcaption class="label">Passform</figcaption></figure>
+    <figure><img src="img/stapel-gross.jpg" alt="Großer Stapel gefalteter Jeans"><figcaption class="label">Auswahl</figcaption></figure>
+    <div class="hero-text">
+      <p class="label">Persönliche Passformberatung</p>
+      <h1 id="hero-titel">Die perfekte Jeans findest du nicht im Warenkorb.</h1>
+      <p>Sondern bei uns in der Kabine. Wir schauen gemeinsam, welcher Schnitt zu dir passt – in Ruhe, ehrlich und kostenlos.</p>
+      <div class="actions"><a href="#termin" class="btn btn-light btn-pill">Termin anfragen</a><a href="#ablauf" class="btn btn-light btn-pill" style="background:none;color:#fff">So läuft es ab</a></div>
     </div>
   </section>
 
-  <div class="logo-strip" aria-hidden="true"><div class="logo-track"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"></div></div>
-
-  <section id="ablauf">
+  <section id="ablauf" class="dark">
     <div class="wrap">
-      <div class="section-head center">
-        <p class="eyebrow">In vier Schritten</p>
-        <h2>So läuft deine Beratung ab.</h2>
-        <p>Ob mit Termin oder spontan – so finden wir gemeinsam deine Jeans.</p>
+      <div class="section-head">
+        <div>
+          <p class="label">In vier Schritten</p>
+          <h2>So läuft deine Beratung ab.</h2>
+          <p>Ob mit Termin oder spontan – so finden wir gemeinsam deine Jeans.</p>
+        </div>
       </div>
-      <ol class="steps">
-        <li><h3>Ankommen</h3><p>Du erzählst uns, wofür die Jeans sein soll und was dir bisher nicht gepasst hat.</p></li>
-        <li><h3>Schnitt finden</h3><p>Skinny, Straight oder Relaxed? Wir zeigen dir passende Modelle verschiedener Marken.</p></li>
-        <li><h3>Anprobieren</h3><p>Du probierst in Ruhe an – andere Längen und Weiten bringen wir dir direkt in die Kabine.</p></li>
-        <li><h3>Passt!</h3><p>Du gehst mit einer Jeans nach Hause, die wirklich sitzt. Ganz ohne Rücksendung.</p></li>
+      <ol class="steps with-img">
+        <li><img src="img/hh-strasse-schatten.jpg" alt="Person auf einer Straße im Gegenlicht" loading="lazy"><h3>Ankommen</h3><p>Du erzählst uns, wofür die Jeans sein soll und was dir bisher nicht gepasst hat.</p></li>
+        <li><img src="img/buegel.jpg" alt="Helle Jeans auf einem Holzbügel" loading="lazy"><h3>Schnitt finden</h3><p>Skinny, Straight oder Relaxed? Wir zeigen dir passende Modelle verschiedener Marken.</p></li>
+        <li><img src="img/kabine.jpg" alt="Umkleidekabine mit Vorhang" loading="lazy"><h3>Anprobieren</h3><p>Du probierst in Ruhe an – andere Längen und Weiten bringen wir dir direkt in die Kabine.</p></li>
+        <li><img src="img/haende-etikett.jpg" alt="Hände halten eine Jeans mit Etikett" loading="lazy"><h3>Passt!</h3><p>Du gehst mit einer Jeans nach Hause, die wirklich sitzt. Ganz ohne Rücksendung.</p></li>
       </ol>
     </div>
   </section>
 
-  <section class="bg-grey" id="vergleich">
+  <section class="film-wide">
+    <img src="img/stange-warm.jpg" alt="Jeans auf Bügeln im warmen Licht" loading="lazy">
+    <p class="timecode" aria-hidden="true">BERATUNG · KOSTENLOS</p>
+    <div class="wrap">
+      <p class="label" style="color:#e7e3dc">Unser Versprechen</p>
+      <h2>Wir nehmen uns Zeit. Versprochen.</h2>
+      <p>Keine Größentabelle der Welt ersetzt einen Blick in den Spiegel – und jemanden, der ehrlich sagt, was dir steht.</p>
+      <div class="actions"><a href="#termin" class="btn btn-light">Termin anfragen</a></div>
+    </div>
+  </section>
+
+  <section class="filmstrip-wrap" style="padding-left:0;padding-right:0">
+    <div class="filmstrip-head">
+      <p class="label" style="color:#a9a398">In der Kabine</p>
+      <h2>Worauf wir achten.</h2>
+    </div>
+    <div class="filmstrip">
+      <figure><img src="img/massband-licht.jpg" alt="Hand hält ein Maßband" loading="lazy"><figcaption>01 — Die Länge</figcaption></figure>
+      <figure><img src="img/tasche-leder.jpg" alt="Gesäßtasche mit Lederpatch" loading="lazy"><figcaption>02 — Der Sitz am Po</figcaption></figure>
+      <figure><img src="img/naht.jpg" alt="Doppelte Naht auf Denim" loading="lazy"><figcaption>03 — Die Nähte</figcaption></figure>
+      <figure><img src="img/knopf.jpg" alt="Jeansknopf in Nahaufnahme" loading="lazy"><figcaption>04 — Der Bund</figcaption></figure>
+      <figure><img src="img/tasche.jpg" alt="Gesäßtasche einer getragenen Jeans" loading="lazy"><figcaption>05 — Die Waschung</figcaption></figure>
+      <figure><img src="img/denim-dunkel.jpg" alt="Dunkler Denimstoff mit Naht" loading="lazy"><figcaption>06 — Der Stoff</figcaption></figure>
+      <figure><img src="img/stapel-weiss.jpg" alt="Stapel gefalteter Jeans" loading="lazy"><figcaption>07 — Die Alternativen</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="bg-white" id="vergleich">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Online oder im Laden?</p>
-        <h2>Warum sich der Weg zu uns lohnt.</h2>
-        <p>Online bestellen klingt bequem – bis das dritte Paket wieder zurückgeht.</p>
+        <div>
+          <p class="label">Online oder im Laden?</p>
+          <h2>Warum sich der Weg zu uns lohnt.</h2>
+          <p>Online bestellen klingt bequem – bis das dritte Paket wieder zurückgeht.</p>
+        </div>
       </div>
       <div class="table-wrap">
         <table class="tbl">
@@ -95,9 +120,11 @@
   <section id="groessen">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Größen verstehen</p>
-        <h2>W und L – was bedeutet das?</h2>
-        <p>Jeansgrößen werden in Inch angegeben: <strong>W</strong> (Waist) ist die Bundweite, <strong>L</strong> (Length) die Innenbeinlänge. 1 Inch entspricht 2,54 cm. Die Tabellen helfen bei der Orientierung – sicher bist du aber erst nach dem Anprobieren.</p>
+        <div>
+          <p class="label">Größen verstehen</p>
+          <h2>W und L – was bedeutet das?</h2>
+          <p>Jeansgrößen werden in Inch angegeben: W (Waist) ist die Bundweite, L (Length) die Innenbeinlänge. 1 Inch entspricht 2,54 cm. Sicher bist du aber erst nach dem Anprobieren.</p>
+        </div>
       </div>
       <div class="size-tables">
         <div class="table-wrap">
@@ -136,13 +163,13 @@
     </div>
   </section>
 
-  <section class="bg-grey" id="nachhaltigkeit">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Nachhaltig &amp; langlebig</p>
-        <h2>Eine Jeans, die passt, trägst du länger.</h2>
+  <div id="nachhaltigkeit" class="dark">
+  <section class="editorial flip" style="padding:0">
+    <img src="img/rollen.jpg" alt="Gerollte Jeans dicht nebeneinander" loading="lazy">
+    <div class="text">
+      <p class="label">Nachhaltig &amp; langlebig</p>
+      <h2>Eine Jeans, die passt, trägst du länger.</h2>
         <p>Die nachhaltigste Jeans ist die, die du jahrelang gern anziehst. Mit diesen Tipps bleibt sie lange schön:</p>
-      </div>
       <ul class="care">
         <li><strong>Seltener waschen</strong><span>Auslüften reicht oft – das schont Stoff, Farbe und Umwelt.</span></li>
         <li><strong>Auf links drehen</strong><span>Vor dem Waschen umdrehen, so bleibt die Farbe länger kräftig.</span></li>
@@ -151,72 +178,66 @@
       </ul>
     </div>
   </section>
+  </div>
 
-  <section id="termin">
-    <div class="wrap form-grid">
-      <div>
-        <p class="eyebrow">Beratungstermin</p>
-        <h2 style="font-size:clamp(1.8rem,3.6vw,2.5rem);margin:6px 0 14px">Extra Zeit nur für dich.</h2>
-        <p style="margin-bottom:14px">Du möchtest sicher sein, dass wir Zeit für dich haben? Schick uns deinen Wunschtermin – wir melden uns zur Bestätigung.</p>
-        <p style="color:var(--muted)">Lieber spontan? Kein Problem – komm einfach während der Öffnungszeiten vorbei oder ruf uns an: <a href="tel:+494068915830">040 – 68 91 58 30</a>.</p>
-        <img class="photo" src="img/ladenfront.jpg" alt="Ladenfront von Jeans House" loading="lazy" style="margin-top:28px;border-radius:12px;aspect-ratio:4/3;object-fit:cover;width:100%">
-      </div>
-      <div class="card form-card">
-        <form action="danke.html" method="get">
-          <div class="field">
-            <label for="name">Name *</label>
-            <input type="text" id="name" name="name" autocomplete="name" required>
+  <section class="form-grid" id="termin" style="padding:0">
+    <img src="img/stange-hell.jpg" alt="Jeans hängen an einer Kleiderstange" loading="lazy">
+    <div class="form-card">
+      <p class="label">Beratungstermin</p>
+      <h2>Extra Zeit nur für dich.</h2>
+      <p>Schick uns deinen Wunschtermin – wir melden uns zur Bestätigung. Lieber spontan? Komm einfach während der Öffnungszeiten vorbei.</p>
+      <form action="danke.html" method="get">
+        <div class="field">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="telefon">Telefon</label>
+          <input type="tel" id="telefon" name="telefon" autocomplete="tel">
+        </div>
+        <div class="field full">
+          <label for="email">E-Mail *</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="datum">Wunschtag *</label>
+          <input type="date" id="datum" name="datum" required>
+        </div>
+        <div class="field">
+          <label for="uhrzeit">Uhrzeit</label>
+          <select id="uhrzeit" name="uhrzeit">
+            <option>egal</option>
+            <option>10 – 12 Uhr</option>
+            <option>12 – 14 Uhr</option>
+            <option>14 – 16 Uhr</option>
+            <option>16 – 18 Uhr (nicht samstags)</option>
+          </select>
+        </div>
+        <fieldset>
+          <legend>Ich suche Jeans für</legend>
+          <div class="options">
+            <label><input type="radio" name="fuer" value="damen" checked> Damen</label>
+            <label><input type="radio" name="fuer" value="herren"> Herren</label>
+            <label><input type="radio" name="fuer" value="beides"> Beides</label>
           </div>
-          <div class="field">
-            <label for="telefon">Telefon</label>
-            <input type="tel" id="telefon" name="telefon" autocomplete="tel">
+        </fieldset>
+        <fieldset>
+          <legend>Worauf sollen wir achten?</legend>
+          <div class="options">
+            <label><input type="checkbox" name="wunsch" value="ueberlaenge"> Überlänge</label>
+            <label><input type="checkbox" name="wunsch" value="weite"> große Weite</label>
+            <label><input type="checkbox" name="wunsch" value="marke"> bestimmte Marke</label>
+            <label><input type="checkbox" name="wunsch" value="guertel"> Gürtel &amp; Oberteile</label>
           </div>
-          <div class="field full">
-            <label for="email">E-Mail *</label>
-            <input type="email" id="email" name="email" autocomplete="email" required>
-          </div>
-          <div class="field">
-            <label for="datum">Wunschtag *</label>
-            <input type="date" id="datum" name="datum" required>
-          </div>
-          <div class="field">
-            <label for="uhrzeit">Uhrzeit</label>
-            <select id="uhrzeit" name="uhrzeit">
-              <option>egal</option>
-              <option>10 – 12 Uhr</option>
-              <option>12 – 14 Uhr</option>
-              <option>14 – 16 Uhr</option>
-              <option>16 – 18 Uhr (nicht samstags)</option>
-            </select>
-          </div>
-          <fieldset>
-            <legend>Ich suche Jeans für</legend>
-            <div class="options">
-              <label><input type="radio" name="fuer" value="damen" checked> Damen</label>
-              <label><input type="radio" name="fuer" value="herren"> Herren</label>
-              <label><input type="radio" name="fuer" value="beides"> Beides</label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>Worauf sollen wir achten?</legend>
-            <div class="options">
-              <label><input type="checkbox" name="wunsch" value="ueberlaenge"> Überlänge</label>
-              <label><input type="checkbox" name="wunsch" value="weite"> große Weite</label>
-              <label><input type="checkbox" name="wunsch" value="marke"> bestimmte Marke</label>
-              <label><input type="checkbox" name="wunsch" value="guertel"> Gürtel &amp; Oberteile</label>
-            </div>
-          </fieldset>
-          <div class="field full">
-            <label for="nachricht">Nachricht</label>
-            <textarea id="nachricht" name="nachricht" rows="4" placeholder="z. B. Lieblingsmodell oder Größe, die du sonst trägst"></textarea>
-          </div>
-          <label class="consent full"><input type="checkbox" name="datenschutz" required> <span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage genutzt werden. Mehr in der <a href="datenschutz.html">Datenschutzerklärung</a>. *</span></label>
-          <div class="full">
-            <button type="submit" class="btn btn-red">Termin anfragen</button>
-          </div>
-          <p class="form-note full">* Pflichtfeld. Schulprojekt: Das Formular verschickt keine echten Daten.</p>
-        </form>
-      </div>
+        </fieldset>
+        <div class="field full">
+          <label for="nachricht">Nachricht</label>
+          <textarea id="nachricht" name="nachricht" rows="4" placeholder="z. B. Lieblingsmodell oder Größe, die du sonst trägst"></textarea>
+        </div>
+        <label class="consent full"><input type="checkbox" name="datenschutz" required> <span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage genutzt werden. Mehr in der <a href="datenschutz.html">Datenschutzerklärung</a>. *</span></label>
+        <div class="full"><button type="submit" class="btn btn-dark">Termin anfragen</button></div>
+        <p class="form-note full">* Pflichtfeld. Schulprojekt: Das Formular verschickt keine echten Daten.</p>
+      </form>
     </div>
   </section>
 </main>
@@ -225,31 +246,32 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <img src="img/logo.png" alt="Jeans House" width="88" height="48">
-        <p>Markenjeans auf 260 m² in Hamburg-Wandsbek.<br>Persönliche Beratung seit über 30 Jahren.</p>
+        <a href="index.html" class="foot-logo"><img src="img/logo.png" alt="Jeans House" width="73" height="40"></a>
+        <p>Markenjeans auf 260 m² in Hamburg-Wandsbek. Persönliche Beratung seit über 30 Jahren.</p>
       </div>
       <section>
-        <h2 class="foot-h">Unsere Öffnungszeiten</h2>
-        <p>Mo – Fr: 10:00 – 18:00 Uhr<br>Sa: 10:00 – 16:00 Uhr<br>So: geschlossen</p>
+        <h2 class="foot-h">ÖFFNUNGSZEITEN</h2>
+        <p>Mo – Fr 10 – 18 Uhr<br>Sa 10 – 16 Uhr<br>So geschlossen</p>
       </section>
       <section>
-        <h2 class="foot-h">Hier findest du uns</h2>
-        <address>
-          <ul>
-            <li>Jeans House Ohlrogge GmbH &amp; Co. KG</li>
-            <li>Wandsbeker Allee 68, 22041 Hamburg</li>
-            <li><a href="tel:+494068915830">040 – 68 91 58 30</a></li>
-            <li><a href="mailto:jeanshouse.hamb@t-online.de">jeanshouse.hamb@t-online.de</a></li>
-            <li><a href="https://www.facebook.com/hamburgjeans/" target="_blank" rel="noopener">Facebook</a></li>
-          </ul>
-        </address>
+        <h2 class="foot-h">STORE</h2>
+        <address>Jeans House Ohlrogge GmbH &amp; Co. KG<br>Wandsbeker Allee 68<br>22041 Hamburg</address>
+      </section>
+      <section>
+        <h2 class="foot-h">KONTAKT</h2>
+        <ul>
+          <li><a href="tel:+494068915830">040 – 68 91 58 30</a></li>
+          <li><a href="mailto:jeanshouse.hamb@t-online.de">E-Mail schreiben</a></li>
+          <li><a href="https://www.facebook.com/hamburgjeans/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="beratung.html#termin">Beratungstermin</a></li>
+        </ul>
       </section>
     </div>
     <div class="foot-bottom">
       <span>© Jeans House Ohlrogge GmbH &amp; Co. KG</span>
       <nav aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="https://www.hamburg-jeans.de/" target="_blank" rel="noopener">Original-Website</a></nav>
     </div>
-    <p class="disclaimer">Schulprojekt: inoffizielles Redesign der Website hamburg-jeans.de zu Übungszwecken. Keine Verbindung zum Unternehmen. Fotos und Logos stammen von hamburg-jeans.de bzw. den jeweiligen Marken.</p>
+    <p class="disclaimer">Schulprojekt: inoffizielles Redesign der Website hamburg-jeans.de zu Übungszwecken. Keine Verbindung zum Unternehmen. Ladenfotos und Logos von hamburg-jeans.de bzw. den Marken, Stimmungsfotos von Unsplash (siehe Impressum).</p>
   </div>
 </footer>
 
