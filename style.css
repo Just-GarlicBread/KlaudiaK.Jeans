@@ -445,3 +445,12 @@ footer a:hover { color: var(--white); text-decoration: underline; }
   .cine-title { aspect-ratio: auto; min-height: 300px; }
   .dark .steps li, .dark .steps li + li { border-bottom-color: #2c2a27; }
 }
+
+/* Schritte mit Bild: alle vier Spalten exakt gleich breit, damit die Fotos gleich groß sind */
+.steps.with-img li img { object-position: center bottom; }   /* falls nötig, oben abschneiden */
+@media (min-width: 1021px) {
+  .steps.with-img { column-gap: 48px; }
+  .steps.with-img li, .steps.with-img li + li { padding: 26px 0 0; border-left: 0; position: relative; }
+  .steps.with-img li + li::after { content: ""; position: absolute; left: -24px; top: 0; bottom: 0; border-left: 1px solid var(--line); }
+  .dark .steps.with-img li + li::after { border-left-color: #2c2a27; }
+}
